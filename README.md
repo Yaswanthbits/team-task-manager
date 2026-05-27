@@ -94,7 +94,7 @@ For a production-grade version, use Railway PostgreSQL or Supabase Postgres/Auth
 
 ## Submission Checklist
 
-- Live URL: paste your Railway deployment URL
-- GitHub repo: paste your repository URL
+- Live URL: https://web-production-45b06.up.railway.app/
+- GitHub repo: https://github.com/Yaswanthbits/team-task-manager
 - README: this file
 - Demo video: record 2-5 minutes showing login, admin project creation, team member assignment, task creation, status update, and member permissions
