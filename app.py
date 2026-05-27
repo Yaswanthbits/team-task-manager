@@ -453,3 +453,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+@app.route("/")
+def home():
+    return "Task Manager App Running Successfully!"
