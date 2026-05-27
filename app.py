@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 
 
 BASE_DIR = Path(__file__).resolve().parent
-PUBLIC_DIR = BASE_DIR / "public"
+PUBLIC_DIR = BASE_DIR 
 DB_PATH = Path(os.environ.get("DATABASE_PATH", BASE_DIR / "taskflow.sqlite3"))
 SECRET = os.environ.get("SESSION_SECRET", "dev-secret-change-on-railway").encode()
 STATUSES = {"todo", "in_progress", "review", "done"}
@@ -450,9 +450,5 @@ def main():
     print(f"TaskFlow running on http://localhost:{port}")
     server.serve_forever()
 
-
 if __name__ == "__main__":
     main()
-@app.route("/")
-def home():
-    return "Task Manager App Running Successfully!"
